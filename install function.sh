@@ -1,6 +1,6 @@
 #!/bin/bash
-export OPENFAAS_URL=https://1515.1515.1515.1515:8080 #your IP from faasd (from first VM)
-faas-cli login -u admin -p 1234 #password from first VM
+export OPENFAAS_URL=https://10.20.14.147:8080 #your IP from faasd (from first VM)
+faas-cli login -u admin -p lHzs44tlIlX8srvhbu3eR5r3uTstXGFAawnpdZQhl0S8cMs8sSpMcqTUjjf6aqw #password from first VM
 git clone https://github.com/Andrei50/Figlet_OpenFaaS 
 cd Figlet_OpenFaaS
 docker login
